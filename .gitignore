@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# env and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# builds
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+
+# contracts
+cache/
+artifacts/
+typechain-types/
+broadcast/
+
+# python
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# logs and os
+*.log
+.DS_Store
+Thumbs.db
+
+# editors
+.idea/
+.vscode/
+*.swp
